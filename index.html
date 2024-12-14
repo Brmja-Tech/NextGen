@@ -1,436 +1,697 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sama</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sama</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <nav class="container navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <img src="images/logo.png" alt="logo" style="width: 15%;">
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a style="color: #20B486;" class="nav-link active mx-3" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color: #6D737A;" class="nav-link mx-3" href="#">How It Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color: #6D737A;" class="nav-link mx-3" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color: #6D737A;" class="nav-link mx-3" href="#">Investors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color: #6D737A;" class="nav-link mx-3" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="color: #6D737A;" class="nav-link mx-3" href="#">Contact Us</a>
-                    </li>
-                </ul>
-    
-                
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="d-flex justify-content-center align-items-center mx-2">
-                        <img src="images/Lock.svg" alt="lock">
-                        <a href="" style="color: #6D737A;" class="text-decoration-none ms-1">Login</a>
-                    </div>
-                    <button class="btn btn-success ms-2" type="submit">Sign up</button>
-                </div>
-            </div>
-        </div>  
-    </nav>
+  <nav class="container navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <img src="images/logo.png" alt="logo" style="width: 15%;">
 
-    <div class="border w-100 text-bg-secondary h1 py-0 "></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- header -->
-    <section class="container">
-        <div class="row my-5">
-            
-                <div class="col-md-6">
-                        <h4 style="color: #20B486;" >Start investing</h4>
-                        <h2>Empowering Visionaries,
-                            Connecting Innovators
-                            with Investors</h2>
-                        <p  style="color: #6D737A; font-size: 15px;" class="my-2">Empowering Visionaries,
-                            Connecting Innovators
-                            with Investors</p>
-                            <div style="position: relative; display: inline-block; width: 100%;">
-                                <input 
-                                  type="text" 
-                                  class="form-control shadow-lg py-3 px-2" 
-                                  placeholder="    Find companies to invest in ?" 
-                                  style="color: #6D737A; font-size: 15px; padding-right: 40px;"
-                                >
-
-                              <a href=""> <img 
-                                src="images/MagnifyingGlass.svg" 
-                                alt="icon" 
-                                style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px;"
-                              ></a>
-                              </div>
-                              
-                </div>
-    
-                <div class="col-md-6">
-                    <div class="position-relative">
-                        <img class="frame1"  src="images/Frame 12.svg" alt="">
-                        <img class="frame2 z-1 position-absolute" src="images/Frame 18.svg" alt="">
-                    </div>
-                </div>
-           
-         </div>
-    </section>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="color: #20B486;" class="nav-link active mx-3" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="HowItWorks.html">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="/projects/projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="investors.html">Investors</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="/details/details.html">details</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #6D737A;" class="nav-link mx-3" href="#">Contact Us</a>
+          </li>
+        </ul>
 
 
-    <section>
-        <div class="container">
-            <div class="row">
-               <div class="col-md-3">
-                <h4 style="font-size: 56px; font-weight: 600;">Choose to <span style="color: #20B486;">invest in startups</span></h4>
-               </div>
-               <div class="col-md-9 d-flex ">
-                <div class="card p-3 shadow bg-white border-0 " style="width: 16rem;">
-                    <div>
-                        <img src="images/Rectangle 9.svg" class="card-img-top px-1 " alt="...">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-center align-items-center mx-2">
+            <img src="images/Lock.svg" alt="lock">
+            <a href="" style="color: #6D737A;" class="text-decoration-none ms-1">Login</a>
+          </div>
+          <button class="btn btn-success ms-2" type="submit">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-                    </div>
-                    <div class="card-body">
-                      <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch Manufacturing</h6>
-                        <div class="d-flex">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <h6 class="mt-2">(15)</h6>
-                        </div>
-                      <div class="border h1 text-bg-secondary"></div>
-
-                      <div class="d-flex justify-content-between align-content-center">
-                        <p> $ 15000</p>
-                        <img  src="images/ArrowUpRight.svg" alt="">
-                      </div>
-
-                    </div>
-                  </div>
-                <div class="card p-3 shadow bg-white border-0 " style="width: 16rem;">
-                    <div>
-                        <img src="images/Rectangle 9.svg" class="card-img-top px-1 " alt="...">
-
-                    </div>
-                    <div class="card-body">
-                      <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch Manufacturing</h6>
-                        <div class="d-flex">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <h6 class="mt-2">(15)</h6>
-                        </div>
-                      <div class="border h1 text-bg-secondary"></div>
-
-                      <div class="d-flex justify-content-between align-content-center">
-                        <p> $ 15000</p>
-                        <img  src="images/ArrowUpRight.svg" alt="">
-                      </div>
-
-                    </div>
-                  </div>
-                <div class="card p-3 shadow bg-white border-0 " style="width: 16rem;">
-                    <div>
-                        <img src="images/Rectangle 9.svg" class="card-img-top px-1 " alt="...">
-
-                    </div>
-                    <div class="card-body">
-                      <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch Manufacturing</h6>
-                        <div class="d-flex">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <h6 class="mt-2">(15)</h6>
-                        </div>
-                      <div class="border h1 text-bg-secondary"></div>
-
-                      <div class="d-flex justify-content-between align-content-center">
-                        <p> $ 15000</p>
-                        <img  src="images/ArrowUpRight.svg" alt="">
-                      </div>
-
-                    </div>
-                  </div>
-                <div class="card p-3 shadow bg-white border-0 " style="width: 16rem;">
-                    <div>
-                        <img src="images/Rectangle 9.svg" class="card-img-top px-1 " alt="...">
-
-                    </div>
-                    <div class="card-body">
-                      <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch Manufacturing</h6>
-                        <div class="d-flex">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <img src="images/Star.svg" alt="">
-                            <h6 class="mt-2">(15)</h6>
-                        </div>
-                      <div class="border h1 text-bg-secondary"></div>
-
-                      <div class="d-flex justify-content-between align-content-center">
-                        <p> $ 15000</p>
-                        <img  src="images/ArrowUpRight.svg" alt="">
-                      </div>
-
-                    </div>
-                  </div>
+  <div class="border w-100 text-bg-secondary h1 py-0 "></div>
 
 
+  <section class="container my-5 position-relative">
+    <div class="row my-5 position-relative">
 
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="position-relative">
+          <h4 style="color: #20B486; font-size: 24px; font-weight: 600;">Start investing</h4>
+          <h2 style=" font-size: 56px; font-weight: 600;">Empowering Visionaries,Connecting Innovators
+            with Investors</h2>
+          <p style="color: #6D737A; font-size: 15px; font-weight: 400;" class="my-3">Empowering Visionaries,
+            Connecting Innovators
+            with Investors</p>
+          <div style="position: relative; display: inline-block; width: 100%;">
+            <input type="text" class="form-control shadow-lg py-3 px-2" placeholder="    Find companies to invest in ?"
+              style="color: #6D737A; font-size: 16px; font-weight: 400; padding-right: 40px;">
 
+            <a href=""> <img src="images/MagnifyingGlass.svg" alt="icon"
+                style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px;"></a>
+          </div>
+          <img src="images/Vector 2.svg" class="Vector2" alt="">
+          <img src="images/Vector 4.svg" class="Vector4" alt="">
 
-
-               </div>
-            </div>
-            
         </div>
 
-    </section>
+      </div>
 
-    <section>
-        <div style="background-color: #E9F8F3B2;" class="my-2">
-            <div class="container" >
-               <div class="py-5">
-                <h4 style="font-size: 40px; font-weight: 600;" >Most <span style="color: #20B486; font-size: 40px; font-weight: 600;" >Categorys</span></h4>
-                <p style="color: #6D737A; font-size: 20px; font-weight: 400;">
-                    Choose the category that suits you to invest in
-                </p>
+      <div class="col-md-6">
+        <div class="position-relative">
+          <img class="frame1" src="images/Frame 12.svg" alt="">
+          <img class="frame2 z-1 position-absolute" src="images/Frame 18.svg" alt="">
 
-               </div>
-
-               <div class="row d-flex flex-nowrap gap-3 ">
-
-                <div class="col-md-3 bg-white d-flex justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/PenNib.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Design</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/FileHtml.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Design</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/MicrophoneStage.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Marketing</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/Briefcase.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Business</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-
-               </div>
-
-
-
-               <div class="row d-flex flex-nowrap gap-3 my-2 ">
-
-                <div class="col-md-3 bg-white d-flex justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/SunHorizon.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Lifestyle</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/FileHtml.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Design</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/MicrophoneStage.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Marketing</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/Briefcase.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Business</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-
-               </div>
-
-
-
-               <div class="row d-flex flex-nowrap gap-3 my-2 ">
-
-                <div class="col-md-3 bg-white d-flex justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/PenNib.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Design</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/FileHtml.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Design</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/MicrophoneStage.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Marketing</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-                <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img src="images/Briefcase.svg" alt="">
-                    <p style="font-size: 20px; font-weight: 500;" class="mt-3 mx-2" >Business</p>
-                    </div>
-                    <img src="images/arrowRightGreen.svg" alt="">
-                </div>
-
-               </div>
-
-
-               
-
-            </div>
+          <div style="border-radius: 7px;"
+            class="bg-white d-flex justify-content-center align-items-center shadow w-25 p-1 position-absolute rating ">
+            <img style="background-color: #E9F8F3;" src="images/Star green.svg" class="mx-2" alt="">
+            <p class="my-1" style="color: #52565C; font-weight: 400; font-size: 20px;">5.0 Rating</p>
+          </div>
         </div>
-       
-    </section>
+      </div>
 
-    <section>
-        <div style="background-color: #FFFAF5;">
-            <div class="text-center py-3 ">
-                <h3 >What is NextGen <span style="color: #20B486;" >Innovators?</span></h3>
-                <p style="color: #6D737A; " >NextGen Innovators is a dynamic platform designed to connect startups with aspiring investors.</p>
-            </div>
 
-         <div class="container">
-            <div class="row d-flex justify-content-center align-content-center">
-                <div class="col-md-4 ">
-                    <img src="images/Guy's post on social media.svg" class="w-75 h-50 ps-5" alt="">
-                    <h6 class="text-center my-2">Post Projects</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/QA engineer holding magnifier and finding bugs in the code.svg" class="w-75 h-50 alt="">
-                    <h6 class="text-center my-2">Post Projects</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/Data backup on laptop in progress.svg" class="w-75 h-50 ps-5 alt="">
-                    <h6 class="text-center my-2">Post Projects</h6>
-                </div>
-            </div>
+      <img src="images/star absloute.svg" class="star-abs" alt="">
 
-         </div>
+
+
+    </div>
+    <img src="images/Ellipse 3.svg" class="Ellipse3" alt="">
+    <img src="images/Ellipse 3.svg" class="Ellipse" alt="">
+    <img src="images/Ellipse 5.svg" class="Ellipse5" alt="">
+    <img src="images/Sparkle.svg" class="Sparkle" alt="">
+    <img src="images/Vector 3.svg" class="Vector3" alt="">
+
+
+
+
+
+  </section>
+
+
+
+  <section>
+    <div class="container my-5 py-5">
+      <div class="row py-5">
+        <div class="col-md-3 position-relative">
+          <h4 style="font-size: 56px; font-weight: 600;">Choose to <span style="color: #20B486;">invest in
+              startups</span></h4>
+          <img src="images/Vector 4.svg" class="invest-img" alt="">
         </div>
-    </section>
 
+        <div class="col-md-9 d-flex flex-nowrap gap-5 ">
 
-    <section class="my-4 container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
 
-       <div >
-        <h3>Our <span style="color: #20B486; font-size: 40px; font-weight: 600;">Achievement</span></h3>
-        <p style=" color: #6D737A; font-size: 20px; font-weight: 400;" >Encourage users to start their journey with buttons like
-            'Submit Your Project' or 'Explore Investment Opportunities'.</p>
-       </div>
-
-       <div class="row d-flex flex-nowrap ">
-        <div class="col-md-6">
-            <div class="col-md-12 d-flex justify-content-between align-items-center my-3 ">
-                <div class="d-flex">
-                    <img src="images/Project.svg" alt="">
-                   <div>
-                    <h6>300</h6>
-                    <p>Projects</p>
-                   </div>
+              <div class="swiper-slide">
+                <div class="card px-4 py-3 shadow bg-white border-0" style="width: 16rem;">
+                  <div class="position-relative">
+                    <img src="images/Rectangle 9.svg" class="card-img-top px-1" alt="...">
+                    <div class="layer position-absolute">
+                      <p style="font-size: 16px; font-weight: 400;" class="m-0">Technology</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch
+                      Manufacturing</h6>
+                    <div class="d-flex">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <h6 class="mt-2 mx-2">(15)</h6>
+                    </div>
+                    <div class="border h1 text-bg-secondary"></div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <p>$ 15000</p>
+                      <img src="images/ArrowUpRight.svg" class="w-25" alt="">
+                    </div>
+                  </div>
                 </div>
-                <div class="d-flex">
-                    <img src="images/Start up.svg" alt="">
-                   <div>
-                    <h6>10,000+</h6>
-                    <p>Startups</p>
-                   </div>
-                </div>
-
-            </div>
-            
-            <div class="col-md-12 d-flex justify-content-between align-items-center my">
-
-                <div class="d-flex">
-                    <img src="images/Investor.svg" alt="">
-                   <div>
-                    <h6>20,000+</h6>
-                    <p>Investors</p>
-                   </div>
-                </div>
-                <div class="d-flex">
-                    <img src="images/Jar.svg" alt="">
-                   <div>
-                    <h6>1,000,000+</h6>
-                    <p style="font-size: 20px; font-weight: 400;">Amounts traded
-                        through the platform</p>
-                   </div>
-                </div>
-
-            </div>
-            
-        </div>
-        <div class="col-md-6">
-            <div class="custom-image-container">
-                <div class="custom-border"></div>
-                <div class="custom-background"></div>
-                <img src="images/icons8-team-FcLyt7lW5wg-unsplash-removebg-preview 1.svg" alt="Worker" class="custom-image">
               </div>
-              
-              
+
+              <div class="swiper-slide">
+                <div class="card px-4 py-3 shadow bg-white border-0" style="width: 16rem;">
+                  <div class="position-relative">
+                    <img src="images/Rectangle 9 (1).svg" class="card-img-top px-1" alt="...">
+                    <div class="layer position-absolute">
+                      <p style="font-size: 16px; font-weight: 400;" class="m-0">Design</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch
+                      Manufacturing</h6>
+                    <div class="d-flex">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <h6 class="mt-2 mx-2">(15)</h6>
+                    </div>
+                    <div class="border h1 text-bg-secondary"></div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <p>$ 15000</p>
+                      <img src="images/ArrowUpRight.svg" class="w-25" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card px-4 py-3 shadow bg-white border-0" style="width: 16rem;">
+                  <div class="position-relative">
+                    <img src="images/Rectangle 9 (2).svg" class="card-img-top px-1" alt="...">
+                    <div class="layer position-absolute">
+                      <p style="font-size: 16px; font-weight: 400;" class="m-0">Business</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch
+                      Manufacturing</h6>
+                    <div class="d-flex">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <h6 class="mt-2 mx-2">(15)</h6>
+                    </div>
+                    <div class="border h1 text-bg-secondary"></div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <p>$ 15000</p>
+                      <img src="images/ArrowUpRight.svg" class="w-25" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card px-4 py-3 shadow bg-white border-0" style="width: 16rem;">
+                  <div class="position-relative">
+                    <img src="images/Rectangle 9 (2).svg" class="card-img-top px-1" alt="...">
+                    <div class="layer position-absolute">
+                      <p style="font-size: 16px; font-weight: 400;" class="m-0">Business</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch
+                      Manufacturing</h6>
+                    <div class="d-flex">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <h6 class="mt-2 mx-2">(15)</h6>
+                    </div>
+                    <div class="border h1 text-bg-secondary"></div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <p>$ 15000</p>
+                      <img src="images/ArrowUpRight.svg" class="w-25" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card px-3 py-3 shadow bg-white border-0" style="width: 16rem;">
+                  <div class="position-relative">
+                    <img src="images/Rectangle 9 (2).svg" class="card-img-top px-1" alt="...">
+                    <div class="layer position-absolute">
+                      <p style="font-size: 16px; font-weight: 400;" class="m-0">Business</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h6 style="color: #363A3D; font-size: 20px; font-weight: 500;" class="card-title">Smart Watch
+                      Manufacturing</h6>
+                    <div class="d-flex">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <img src="images/Star.svg" class="w-25" alt="">
+                      <h6 class="mt-2 mx-2">(15)</h6>
+                    </div>
+                    <div class="border h1 text-bg-secondary"></div>
+                    <div class="d-flex justify-content-between align-content-center">
+                      <p>$ 15000</p>
+                      <img src="images/ArrowUpRight.svg" class="w-25" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+
+
+
         </div>
-       </div>
+      </div>
 
-    </section>
-    
+    </div>
+
+  </section>
+
+  <section>
+    <div style="background-color: #E9F8F3B2;" class="my-5">
+      <div class="container">
+        <div class="py-5 position-relative">
+
+          <h4 style="font-size: 40px; font-weight: 600;">Most <span
+              style="color: #20B486; font-size: 40px; font-weight: 600;">Categorys</span></h4>
+          <p style="color: #6D737A; font-size: 20px; font-weight: 400;">
+            Choose the category that suits you to invest in
+          </p>
+          <img src="images/Vector 4.svg" class="cetogory-img" alt="">
+
+        </div>
+
+        <div class="my-2">
+
+          <div class="row d-flex flex-nowrap gap-3 ">
+
+            <div class="col-md-3 bg-white d-flex justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/PenNib.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Design</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/FileHtml.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Programming</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/MicrophoneStage.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Marketing</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Briefcase.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Business</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+
+          </div>
+
+
+
+          <div class="row d-flex flex-nowrap gap-3 my-2 ">
+
+            <div class="col-md-3 bg-white d-flex justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/SunHorizon.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Lifestyle</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Camera.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Films</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/MusicNote.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Music</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Database.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Data Science</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+
+          </div>
+
+
+
+          <div class="row d-flex flex-nowrap gap-3 my-2  pb-5">
+
+            <div class="col-md-3 bg-white d-flex justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Lightbulb.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Personal Develop</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Heartbeat.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Helth & Fitness</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Graph.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Finance</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+            <div class="col-md-3 bg-white d-flex  justify-content-between px-3">
+              <div class="d-flex justify-content-center align-items-center p-2">
+                <img src="images/Detective.svg" alt="">
+                <p style="font-size: 20px; font-weight: 400;" class="mt-3 mx-2">Teaching</p>
+              </div>
+              <img src="images/arrowRightGreen.svg" alt="">
+            </div>
+
+          </div>
+        </div>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div style="background-color: #FFFAF5;">
+      <div class="text-center py-3 position-relative ">
+        <h3>What is NextGen <span style="color: #20B486;">Innovators?</span></h3>
+
+        <p style="color: #6D737A; ">NextGen Innovators is a dynamic platform designed to connect startups with aspiring
+          investors.</p>
+        <img src="images/Vector 4.svg" class="Innovators-img" alt="">
+
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-center align-content-center">
+          <div class="col-md-4 ">
+            <img src="images/Guy's post on social media.svg" class="w-75 h-50 ps-5" alt="">
+            <h6 class="text-center my-2">Post Projects</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="images/QA engineer holding magnifier and finding bugs in the code.svg" class="w-75 h-50 alt="">
+                    <h6 class=" text-center my-2">Post Projects</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="images/Data backup on laptop in progress.svg" class="w-75 h-50 ps-5 alt="">
+                    <h6 class=" text-center my-2">Post Projects</h6>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="my-5 container">
+
+    <div class="position-relative">
+      <h3 style="font-size: 40px; font-weight: 600;">Our <span
+          style="color: #20B486; font-size: 40px; font-weight: 600;">Achievement</span></h3>
+      <p style=" color: #6D737A; font-size: 20px; font-weight: 400;">Encourage users to start their journey with buttons
+        like
+        <br> 'Submit Your Project' or 'Explore Investment Opportunities'.
+      </p>
+      <img src="images/Vector 4.svg" class="Achievement-img" alt="">
+
+    </div>
+
+    <div class="row d-flex flex-nowrap ">
+      <div class="col-md-6 justify-content-between align-items-center">
+        <div class="col-md-12 d-flex justify-content-between align-items-center my-3">
+          <div class="d-flex">
+            <img src="images/Project.svg" alt="">
+            <div>
+              <h6>300</h6>
+              <p>Projects</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <img src="images/Start up.svg" alt="">
+            <div>
+              <h6>10,000+</h6>
+              <p>Startups</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 d-flex justify-content-between align-items-center my-3">
+          <div class="d-flex">
+            <img src="images/Investor.svg" alt="">
+            <div>
+              <h6>20,000+</h6>
+              <p>Investors</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <img src="images/Jar.svg" alt="">
+            <div>
+              <h6>1,000,000+</h6>
+              <p style="font-size: 16px; font-weight: 400;">Amounts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 position-relative d-flex justify-content-center">
+        <div class="custom-image-container">
+          <div class="custom-border"></div>
+          <div class="custom-background"></div>
+          <img src="images/icons8-team-FcLyt7lW5wg-unsplash-removebg-preview 1.svg" alt="Worker" class="custom-image">
+
+          <img src="images/Sparkle1.svg" class="star-blue" alt="">
+          <img src="images/star yellow.svg" class="star-yellow" alt="">
+          <img src="images/Ellipse 3.svg" class="dot-Ellipse" alt="">
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container my-5">
+    <div class="mt-5 pt-5 position-relative">
+      <h3 style=" font-size: 40px; font-weight: 600;">Inversores <span
+          style="color: #20B486; font-size: 40px; font-weight: 600;">Feedback</span></h3>
+
+      <p style=" color: #6D737A;">Showcase ongoing or high-performing projects with thumbnails, brief summaries, and
+        funding progress bars.</p>
+
+      <img src="images/Vector 4.svg" class="Inversores-img" alt="">
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="feedback-card shadow p-3">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <div class="d-flex">
+              <img src="images/Rectangle 25.svg" alt="Dina" class="rounded-circle me-3">
+              <div>
+                <h6 style="font-size: 24px; font-weight: 600;" class="mb-0">Dina Ghabuur</h6>
+                <small style="font-size: 16px; font-weight: 400;">Investor</small>
+              </div>
+            </div>
+
+            <div>
+              <img src="images/Vector.svg" class="w-50" alt="">
+            </div>
+          </div>
+          <p class="pb-4" style=" color: #363A3D; font-size:16px ; font-weight:400 ;">"I love how transparent the
+            process is. From project evaluation to funding allocation, every step is clear and professional."</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="feedback-card  shadow p-3">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <div class="d-flex">
+              <img src="images/Rectangle 25 (1).svg" alt="Dina" class="rounded-circle me-3">
+              <div>
+                <h6 style="font-size: 24px; font-weight: 600;" class="mb-0">John hana</h6>
+                <small style="font-size: 16px; font-weight: 400;">Investor</small>
+              </div>
+            </div>
+
+            <div>
+              <img src="images/Vector.svg" class="w-50" alt="">
+            </div>
+          </div>
+          <p style="color: #363A3D; font-size:16px ; font-weight:400 ;">"The platform’s detailed project insights and
+            updates make it easy to make informed investment decisions. It’s a must-use for any investor looking to
+            diversify."</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="my-5">
+    <div style="background-color: #E9F8F3B2;">
+      <div class="container row p-5">
+        <div class="col-md-6">
+          <div class="custom-img-container">
+            <img src="images/Rectangle 23.svg" alt="Custom Image" class="custom-img" />
+            <div class="custom-bordr"></div>
+
+            <img src="images/star yellow.svg" class="Startups" alt="">
+            <img src="images/Vector 3.svg" class="Startups-vector" alt="">
+            <img src="images/Ellipse 5.svg" class="Startups-vector1" alt="">
+            <img src="images/Ellipse 3.svg" class="Startups-vector2" alt="">
+
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h4 style="color: #06241B; font-size: 40px; font-weight: 600;">Startups are small, dynamic businesses aimed
+              at solving problems in innovative ways.</h4>
+            <p style="color: #06241B; font-size: 24px; font-weight: 400;">Highlight funded projects with images and
+              quotes from project owners and investors.</p>
+            <button style="background-color: #20B486;" class="btn text-white">Sing up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <footer class="container">
+    <div style="display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto;">
+
+      <div>
+        <h2 style="font-size: 24px; font-weight: 900;">NextGen <span
+            style="color: #1A906B; font-size: 32; font-weight: 400;">Innovators</span></h2>
+        <h5 style="font: size 24px; ; font-weight: 600; color: #1B1D1F;">Contact Us</h5>
+        <p style="color: #6D737A; font: size 16px; ; font-weight: 400;">Call : +123 400 123</p>
+        <p style="color: #6D737A; font: size 16px; ; font-weight: 400;">cairo Egypt</p>
+
+        <p style="color: #6D737A; font: size 16px; ; font-weight: 400;">Email: info@nextgen.com</p>
+        <div class="d-flex gap-1 mt-2 ">
+          <a class="mx-2" href="#" style="text-decoration: none;"><img src="images/Social Media logo.svg" alt="Facebook"
+              style="width: 24px; height: 24px; background-color: #E9F8F3;"></a>
+          <a class="mx-2" href="#" style="text-decoration: none;"><img src="images/golp.svg" alt="Dribbble"
+              style="width: 24px; height: 24px; background-color: #E9F8F3;"></a>
+          <a class="mx-2" href="#" style="text-decoration: none;"><img src="images/Social Media logo (2).svg"
+              alt="LinkedIn" style="width: 24px; height: 24px; background-color: #E9F8F3;"></a>
+          <a class="mx-2" href="#" style="text-decoration: none;"><img src="images/Social Media logo (3).svg"
+              alt="Behance" style="width: 24px; height: 24px;background-color: #E9F8F3;"></a>
+          <a class="mx-2" href="#" style="text-decoration: none;"><img src="images/Social Media logo (1).svg"
+              alt="Behance" style="width: 24px; height: 24px; background-color: #E9F8F3;"></a>
+        </div>
+      </div>
+
+
+      <div>
+        <h3 class="my-2" style="font-size: 16px; font-weight: 600;">Explore</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Home</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">How It Works</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Projects</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Investors</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">About Us</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Contact Us</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h3 class="my-2" style="font-size: 16px; font-weight: 600;">Category</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Design</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Development</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Marketing</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Business</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Lifestyle</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Photography</a></li>
+          <li class="my-2"><a href="#" style="text-decoration: none; color: #6D737A;">Music</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <h3 class="my-2" style="font-size: 16px; font-weight: 600;">Subscribe</h3>
+
+        <ul style=" padding: 0; margin: 0;">
+          <li style="margin: 5px 0; font-size: 16px; font-weight: 400; color: #6D737A;">Introduce the team and mission
+            with engaging visuals.</li>
+          <li style="margin: 5px 0; font-size: 16px; font-weight: 400; color: #6D737A; ">Milestones, awards, and
+            recognitions displayed using icons and timelines.</li>
+        </ul>
+        <form style="margin-top: 10px;">
+          <input style="background-color: #E7E9EB80;" type="text" class="form-control w-75 my-3 "
+            placeholder="Email here">
+          <button style="background-color: #20B486;" class="btn text-white">Subscribe Now</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
