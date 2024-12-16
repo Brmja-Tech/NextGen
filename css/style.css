@@ -440,6 +440,65 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+  }
+
+  .navbar-toggler {
+    border-color: #20B486;
+  }
+
+  
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px; 
+  }
+
+  .d-flex {
+    flex-direction: row; 
+    align-items: center;
+    margin-top: 10px; 
+    padding-bottom: 10px; 
+  }
+
+  .d-flex img {
+    margin-bottom: 0; 
+  }
+
+  .navbar-nav .nav-link, .btn {
+    font-size: 14px; 
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #20B486;
+  }
+
+  
+  .d-flex a, .d-flex button {
+    margin-top: -12px;  
+    margin-left: 10px; 
+  }
+  
+  .btn {
+    font-size: 14px;
+    padding: 8px 15px; 
+  }
+
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+
 
 
 /* bringing-innovators */
@@ -575,35 +634,35 @@ body {
 
 .dot-brd{
   position: absolute;
-    top: 21%;
-    right: 24%;
+    top: 25%;
+    right: 28%;
 }
 .dot-brd1{
   position: absolute;
-    top: 21%;
-    right: 55%;
+    top: 25%;
+    right: 58%;
 }
 .dot-brd2{
   position: absolute;
-    bottom: 35%;
-    right: 40%;
+    bottom: 31%;
+    right: 43%;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .dot-brd{
     position: absolute;
-      top: 23%;
-      right: 27%;
+      top: 21%;
+      right: 24%;
   }
   .dot-brd1{
     position: absolute;
-      top: 23%;
-      right: 58%;
+      top: 21%;
+      right: 55%;
   }
   .dot-brd2{
     position: absolute;
-      bottom: 31%;
-      right: 42%;
+      bottom: 35%;
+      right: 40%;
   }
   
 }
