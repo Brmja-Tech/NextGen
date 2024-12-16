@@ -92,3 +92,42 @@
   display: inline;
 }
 
+.bg-footer{
+ background-color:#21212F;
+ color:#fff;
+}
+.bg-footer a{
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  footer .container {
+    padding: 0 10px;
+  }
+  
+  footer div {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer h3, footer h5 {
+    font-size: 14px;
+  }
+
+  footer p, footer ul li {
+    font-size: 14px;
+  }
+  
+  .d-flex a {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
