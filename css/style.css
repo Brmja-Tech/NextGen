@@ -1629,6 +1629,10 @@ body {
 
 
 
+.progress-box {
+  height:100%;
+
+}
 .progress-box h5 {
   font-size:40px ;
   font-weight:600;
@@ -1687,7 +1691,8 @@ body {
 
 @media(max-width:1024px){
   .star-rating{
-    display:none;
+    top: 65%;
+    right: -3%;
   }
 }
 
@@ -1704,3 +1709,80 @@ body {
   font-weight:400;
   margin-left:2px;
 }
+
+
+.line-vector{
+  position:absolute;
+  top:35%;
+  left:25%;
+}
+
+@media(max-width:1024px){
+  .line-vector{
+    top:35%;
+  left:2%;
+  }
+}
+
+@media(max-width:768px){
+  .line-vector{
+  display:none ;
+  }
+}
+.line-vector1{
+  position:absolute;
+  bottom:37%;
+  left:10%;
+}
+
+@media(max-width:1024px){
+  .line-vector1{
+    bottom:24%;
+  left:2%;
+  }
+}
+
+@media(max-width:768px){
+  .line-vector1{
+  display:none ;
+  }
+}
+.line-vector3{
+  position:absolute;
+  top:20%;
+  right:-6%;
+  z-index:-15654;
+}
+
+@media(max-width:1024px){
+  .line-vector3{
+    top:20%;
+    right:-3%;
+    z-index:-15654;
+  }
+}
+
+@media(max-width:768px){
+  .line-vector3{
+  display:none ;
+  }
+}
+
+
+html,body{
+  overflow-x : hidden;
+}
+
+
+
+.Industry p{
+width:284px;
+max-width:100%
+}
+
+.investment-container{
+  border:1.78px solid #56DB53 ;
+}
+
+
+
