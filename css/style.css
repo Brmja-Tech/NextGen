@@ -1302,18 +1302,19 @@ body {
   }
  
   .content-section input,
-  .content-section button,.content-section .check-form {
+  .content-section button,.content-section .check-form  {
       margin:auto;
   }
   .content-section .check-form a{
-    padding:0 8px ;
+   margin: auto;
+
   }
 
   .btn-google,
   .btn-facebook {
     width: 100%;
       margin: 10px 0;  
-      font-size:7px;
+      font-size:10px;
   }
 
   .btn-investor {
@@ -1671,3 +1672,35 @@ body {
   }
 }
 
+.star-rating{
+  width:150px;
+  height:auto ;
+  border-radius:10px;
+  padding:12px 16px ;
+  position:absolute;
+  top: 65%;
+    right: -3%;
+    z-index: 99999;
+    background-color: #fff;
+
+}
+
+@media(max-width:1024px){
+  .star-rating{
+    display:none;
+  }
+}
+
+
+.bg-star{
+  background-color: #E9F8F3;
+  padding:2px;
+  width:30px
+}
+
+.bg-star span{
+  color:#52565C;
+  font-size:20px;
+  font-weight:400;
+  margin-left:2px;
+}
