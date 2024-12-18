@@ -381,17 +381,15 @@ body {
   .navbar img {
     width: 100%;
   }
-}x`
+}
 
+.navbar-nav .nav-item .nav-link {
+  color: #fff ;
+}
 
-
-
-
-
-
-
-
-
+.navbar-nav .nav-item .nav-link.active{
+  color: #83ccbf ;
+}
 
 /* responsive navbar */
 
@@ -556,19 +554,20 @@ body {
 
 /* Section Styling */
 .entrepreneurs-section {
-  background-color: #77B9000A;
+  background-color: #111a19;
   overflow-x: hidden;
 }
 
 .entrepreneurs-heading {
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
+  color: #fff;
 }
 
 /* Card Styling */
 .entrepreneurs-card {
 
+  color: #fff;
   padding: 1.5rem;
   transition: transform 0.3s ease-in-out;
   max-width: 90%;
@@ -621,21 +620,22 @@ body {
 
 /* Title and Text Styling */
 .entrepreneurs-title {
+  text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
 }
 
 .entrepreneurs-text {
   font-size: 1rem;
-  color: #666;
+  color: #fff;
   line-height: 1.6;
 }
 
 .dot-brd{
   position: absolute;
     top: 25%;
-    right: 28%;
+    right: 32%;
 }
 .dot-brd1{
   position: absolute;
@@ -803,8 +803,8 @@ body {
 /* investors-section */
 
 .investors-section {
-  background-color: #006EC4; 
-  color: white;
+  background-color: #E9F8F3B2; 
+  color: #000;
 }
 
 .section-title {
@@ -838,7 +838,7 @@ body {
 
 .testimonial-content {
   position: relative;
-  background: #0078d4;
+  background: #111a19;
   color: white;
   padding: 40px;
   transform: skewY(4deg);
@@ -920,7 +920,7 @@ body {
 }
 
 .content-about .about-btn {
-    background-color: #66955C;
+    background-color: #111a19;
     padding: 14px 30px; 
     border-radius: 50px;
     color: #fff;
@@ -982,7 +982,7 @@ body {
     }
 
     .read-more button {
-        background-color: #66955C;
+        background-color: #111a19;
         padding: 14px 30px;
         border-radius: 50px;
         color: #fff;
@@ -992,7 +992,7 @@ body {
     }
 
     .background-blue{
-      background-color:#181C32;
+      background-color:#111a19;
       width:100%;
       height:500px;
     }
@@ -1000,7 +1000,7 @@ body {
 
     /* what the offer */
     .content-offer{
-      background-color:#181C32;
+      background-color:#111a19;
       color:#FFFFFF;
     
     }
@@ -1209,7 +1209,7 @@ body {
 
 
 .btn-investor {
-  background-color: #006EC4;
+  background-color: #111a19;
   padding: 18px;
   border-radius: 13.47px;
   color: #fff;
@@ -1221,7 +1221,7 @@ body {
 
 .input {
   padding: 10px 20px;
-  border: 1.35px solid #006EC4;
+  border: 1.35px solid #111a19;
   border-radius: 13.47px;
   width: 100%; 
 }
@@ -1398,7 +1398,7 @@ body {
 
 
 .btn-investor {
-  background-color: #006EC4;
+  background-color: #111a19;
   color: #fff;
   border-radius: 10px;
   padding: 15px;
@@ -1406,6 +1406,12 @@ body {
   width: 100%;
   margin: 0 0;
   display: block;
+}
+
+.btn-investor:hover {
+  background-color: #1a906b;
+  color: #000;
+
 }
 
 @media (max-width: 768px) {
@@ -1596,15 +1602,20 @@ body {
 
   }
 }
-  
+
+.category-card {
+  padding: 20px;
+}
 
 
-
-
-
-
-
-
+.category-card:hover{
+  border: 1px solid #20B486;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
 
 
 @media (max-width: 991.98px) {
@@ -1643,13 +1654,13 @@ body {
 .progress-box p {
   font-size:16px ;
   font-weight:500;
-  color:#9297A6;
+  color:#fff;
   margin-bottom:0;
 
 
 }
 .progress-box {
- background-color:#080655 ;
+ background-color:#111a19 ;
  padding:16px 20px ;
  border-radius:10px;
  
@@ -1783,8 +1794,4 @@ max-width:100%
 .investment-container{
   border:1.78px solid #56DB53 ;
 }
-
-
-
-
 
