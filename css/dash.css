@@ -1,0 +1,37 @@
+.balance-content{
+    background-color:#006EC4;
+    border-radius:10px;
+    
+}
+.balance-content p{
+    font-size:23px;
+    font-weight:500;
+    
+}
+
+.balance-rating{
+    background-color:#C7FFA5;
+    border-radius:10px;
+
+}
+.invest-content{
+    background-color:#2C2C2C;
+    color:#fff;
+    border-radius:10px;
+    
+}
+.invest-content p{
+    font-weight:500;
+    font-size:23px;
+}
+.amount h5{
+    font-size:14px;
+    font-weight:500;
+    margin-top:4px;
+}
+.amount-content{
+    background-color:#006EC4;
+    color:#fff;
+    border-radius:10px;
+    width:80%;
+}
